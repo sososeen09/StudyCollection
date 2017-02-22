@@ -14,6 +14,12 @@
     <Button
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:onClick="saveInternalFile"
+        android:text="saveInternalFile"
+        android:textAllCaps="false" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
         android:onClick="saveFile"
         android:text="saveFile"
         android:textAllCaps="false" />
@@ -23,5 +29,20 @@
         android:layout_height="wrap_content"
         android:onClick="getPermissions"
         android:text="getPermissions"
+        android:textAllCaps="false" />
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getSDCardPermission"
+        android:text="getSDCardPermission"
+        android:textAllCaps="false" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="getContactPermission"
+        android:text="getContactPermission"
         android:textAllCaps="false" />
 </LinearLayout>

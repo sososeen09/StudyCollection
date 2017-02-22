@@ -15,9 +15,3 @@
 #-keepclassmembers class fqcn.of.javascript.interface.for.webview {
 #   public *;
 #}
-
--keep class com.longge.studycollection.permission.**{*;}
--keep interface com.longge.studycollection.permission.**{*;}
-
-#保护注解
--keepattributes *Annotation*
